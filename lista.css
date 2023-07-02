@@ -1,0 +1,34 @@
+.lista-compra {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .item-compra {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item-compra p {
+    flex: 1;
+    margin: 0;
+  }
+  
+  .item-compra input {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .item-compra button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .item-compra button:hover {
+    background-color: #ff1744;
+  }
+  
